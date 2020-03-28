@@ -1,8 +1,8 @@
 # Members
-  - **Ian McDonald**
-    - GitLab ID = ian_mcd
   - **Lawrence Ukaoma**
     - GitLab ID = lukaoma
+  - **Ian McDonald**
+    - GitLab ID = ian_mcd
   - **Lloyd Gumireddy** 
     - GitLab ID = lloydg
   - **Edmond Gagnon**
