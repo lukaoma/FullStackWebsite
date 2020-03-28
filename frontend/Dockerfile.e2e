@@ -1,0 +1,8 @@
+FROM python:buster
+WORKDIR /app
+
+ADD . /app
+RUN make e2e-deps
+
+ENTRYPOINT [ "make" ]
+CMD ["e2e"]

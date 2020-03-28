@@ -1,0 +1,189 @@
+.fullScreen
+  height: 100vh
+  background-position: center
+  background-size: cover
+
+
+.halfScreen
+  height: 50vh
+  background-position: center
+  background-size: cover
+
+
+.whiteout
+  position: relative
+  font-weight: bolder
+  color: white
+  width: 100vw
+
+.imgAbout
+  max-width: 250px
+  max-height: 250px
+
+.welcome-banner
+  font-size: 300%
+  font-weight: bold
+
+.down
+  transform: rotate(45deg)
+  -webkit-transform: rotate(45deg)
+
+i
+  border: solid black
+  height: 40px
+  width: 40px
+  border-width: 0 3px 3px 0
+  display: inline-block
+  padding: 3px
+
+.navBar
+  background-color: black
+
+  .name
+    font-weight: bold
+    color: lightyellow
+    font-size: 20px
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline
+
+  .bar
+    font-size: 20px
+    color: lightblue
+    font-weight: bold
+
+  .navLinks
+    a:hover
+      background-color: lightblue
+      text-decoration: none
+
+    .navElement
+      padding-left: 20px
+      padding-right: 20px
+      font-weight: bold
+
+      &.right
+        border-top-right-radius: 25px
+        border-bottom-right-radius: 25px
+
+      &.left
+        border-top-left-radius: 25px
+        border-bottom-left-radius: 25px
+
+    .activeNavElement
+      background-color: lightblue
+
+
+.modelPage
+  margin-top: 2%
+  margin-left: 2%
+
+.cardImg
+  background-size: cover
+  background-repeat: no-repeat
+  width: inherit
+  height: 200px
+
+.cardImg2
+  background-size: cover
+  background-repeat: no-repeat
+  width: inherit
+  height: 400px
+
+.cardStyle
+  width: 850px
+
+
+.imgInstance
+  background-size: cover
+  background-repeat: no-repeat
+  max-width: 1000px
+  max-height: 600px
+
+.tab
+  margin-left: 20px
+
+.scrollbox
+  height: 100px
+  width: 100px
+  border: 1px solid #ccc
+  font: 16px/26px Georgia, Garamond, Serif
+  overflow: auto
+
+.currentPage
+  font-size: 25px
+
+.specialCard
+  background-color: rgba(245, 245, 245, 1)
+  opacity: .4
+
+// .formInputFields
+//     border: none
+//     border-color: transparent
+
+.disappearForm
+  display: none !important
+
+.stickyForm
+  position: -webkit-sticky !important
+  position: sticky !important
+  top: 0 !important
+
+.dropDownMenu
+  overflow: scroll
+  max-height: 250px
+
+::-webkit-scrollbar
+  -webkit-appearance: none
+  width: 10px
+
+::-webkit-scrollbar-thumb
+  border-radius: 5px
+  background-color: rgba(0, 0, 0, .5)
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5)
+
+.openMenu
+  display: block !important
+
+.fatBorder
+  border-style: solid
+  border-width: 5px
+
+.navBarSearch
+  padding-top: 10px
+  width: 40% !important
+
+.ghostCard
+  opacity: 0
+
+
+.verticalLine
+  border-left: 6px solid black
+  height: 100vh
+  position: sticky
+  top: 0
+
+.visualMapBox
+  width: 75%
+  height: 55%
+
+.visualMapBox2
+  width: 75%
+  height: 55%
+  overflow: hidden
+
+.TexasMap
+  width: 150%
+  height: 60%
+  z-index: -1
+  padding-bottom: 200px
+
+
+.formResetButton
+  display: none !important
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+$font-family-base: 'Roboto', sans-serif
+@import '../node_modules/bootstrap/scss/bootstrap'
